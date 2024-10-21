@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "325314117383",
-    "project_id": "dating-app-11d3b",
-    "storage_bucket": "dating-app-11d3b.appspot.com"
+    "project_number": "989453088506",
+    "project_id": "lovesui-503",
+    "storage_bucket": "lovesui-503.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:325314117383:android:ca3d402d82e9a17d4b4fa2",
+        "mobilesdk_app_id": "1:989453088506:android:81edf26f87691116177b43",
         "android_client_info": {
-          "package_name": "com.example.dating_app"
+          "package_name": "velozton.youl.sw_app"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAH6vjUQXcOemXALPRDkhTZTPTgSC6VlJw"
+          "current_key": "AIzaSyBgnBvpJBdG_Kl5jmo9d43DyoGHdjSDzhU"
         }
       ],
       "services": {

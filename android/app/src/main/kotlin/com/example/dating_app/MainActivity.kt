@@ -1,4 +1,4 @@
-package com.example.dating_app
+package velozton.youl.sw_app
 
 import io.flutter.embedding.android.FlutterActivity
 

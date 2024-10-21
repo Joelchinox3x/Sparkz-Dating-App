@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -44,38 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDGr50y39S_nXln4I5ZOEd-KUlc6ySBsK8',
-    appId: '1:325314117383:web:0201d6659afa54774b4fa2',
-    messagingSenderId: '325314117383',
-    projectId: 'dating-app-11d3b',
-    authDomain: 'dating-app-11d3b.firebaseapp.com',
-    storageBucket: 'dating-app-11d3b.appspot.com',
-    measurementId: 'G-TYFWFRKSWF',
+    apiKey: 'AIzaSyCB-prnii0Nxm_UTxwHXgn6xkdpQnAVYP0',
+    appId: '1:989453088506:web:4d8e51b009491341177b43',
+    messagingSenderId: '989453088506',
+    projectId: 'lovesui-503',
+    authDomain: 'lovesui-503.firebaseapp.com',
+    storageBucket: 'lovesui-503.appspot.com',
+    measurementId: 'G-KYDMFHQFS7',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAH6vjUQXcOemXALPRDkhTZTPTgSC6VlJw',
-    appId: '1:325314117383:android:ca3d402d82e9a17d4b4fa2',
-    messagingSenderId: '325314117383',
-    projectId: 'dating-app-11d3b',
-    storageBucket: 'dating-app-11d3b.appspot.com',
+    apiKey: 'AIzaSyBgnBvpJBdG_Kl5jmo9d43DyoGHdjSDzhU',
+    appId: '1:989453088506:android:81edf26f87691116177b43',
+    messagingSenderId: '989453088506',
+    projectId: 'lovesui-503',
+    storageBucket: 'lovesui-503.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDxMYEkb_mtwf1IA69mefhAB1UsyYnE1-U',
-    appId: '1:325314117383:ios:422547b4a3a9b8324b4fa2',
-    messagingSenderId: '325314117383',
-    projectId: 'dating-app-11d3b',
-    storageBucket: 'dating-app-11d3b.appspot.com',
+    apiKey: 'AIzaSyDNen4H6JN_RXVXvu3wgHezDsDhL-d_-YM',
+    appId: '1:989453088506:ios:e7f358db145a4aee177b43',
+    messagingSenderId: '989453088506',
+    projectId: 'lovesui-503',
+    storageBucket: 'lovesui-503.appspot.com',
     iosBundleId: 'com.example.datingApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDxMYEkb_mtwf1IA69mefhAB1UsyYnE1-U',
-    appId: '1:325314117383:ios:422547b4a3a9b8324b4fa2',
-    messagingSenderId: '325314117383',
-    projectId: 'dating-app-11d3b',
-    storageBucket: 'dating-app-11d3b.appspot.com',
+    apiKey: 'AIzaSyDNen4H6JN_RXVXvu3wgHezDsDhL-d_-YM',
+    appId: '1:989453088506:ios:e7f358db145a4aee177b43',
+    messagingSenderId: '989453088506',
+    projectId: 'lovesui-503',
+    storageBucket: 'lovesui-503.appspot.com',
     iosBundleId: 'com.example.datingApp',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCB-prnii0Nxm_UTxwHXgn6xkdpQnAVYP0',
+    appId: '1:989453088506:web:53d93e182c5336a7177b43',
+    messagingSenderId: '989453088506',
+    projectId: 'lovesui-503',
+    authDomain: 'lovesui-503.firebaseapp.com',
+    storageBucket: 'lovesui-503.appspot.com',
+    measurementId: 'G-4ZWM16XVF7',
+  );
+
 }
